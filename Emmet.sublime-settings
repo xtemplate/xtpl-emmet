@@ -1,0 +1,35 @@
+{
+
+  // xtpl 代码片段扩展
+  "snippets": {
+
+    "html": {
+        "filters": "html",
+        "profile": "html",
+        "snippets": {
+            "xeach": "{{#each(${1:[1,2,4]})}}\n\t{{${2:this}}}\n{{/each}}",
+            "xeachi": "{{#each(${1:[1,2,4]})}}\n\t{{${2:xindex}}}{{${3:this}}}\n{{/each}}",
+            "xeachr": "{{#each(range(${1:1},${2:2}))}}\n\t{{${3:this}}}\n{{/each}}",
+            "x%": "{{% ${1:} %}}",
+            "x%+": "{{%\n\t ${1:}\n%}}",
+            "xcm": "{{! ${content} }}",
+            "x": "{{${1: }}}${2: }",
+            "xs": "{{set(${e})}}",
+            "xw": "{{#with({${1:x:2}})}}\n\t{{${2:x}}}\n{{/with}}",
+            "xi": "{{include (\"${1:include files}\")}}",
+            "xb": "{{#block (\"${1:block name}\")}}\n\t${2:\\code...}\n{{/block}}",
+            "xe": "{{extend (\"${1:extend files}\")}}",
+            "xm": "{{#macro(${1:params})}}${2:param is ...}{{/macro}}",
+            "xmd": "{{macro(${1:params})}}",
+            "xif": "{{#if( ${1:condition} )}}\n\t${2://code...}\n{{/if}}",
+            "xife": "{{#if( ${1:condition} )}}\n\t${2://code...}\n{{else}}\n\t${3://code...}\n{{/if}}",
+            "xif+": "{{#if( ${1:condition} )}}\n\t${2://code...}\n{{elseif( ${3:condition} )}}\n\t${4://code...}\n{{else}}\n\t${5://code...}\n{{/if}}"
+        }
+    },
+    "xtpl": {
+        "filters": "xtpl",
+        "extends": "html"
+    }
+  }
+
+}
