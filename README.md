@@ -38,7 +38,7 @@
 - `xmd`：生成 `{{macro(params)}}` 调用某配置的宏
 - `xi`：生成 `{{include ("include files")}}` 引入文件
 - `xe`：生成 `{{extend ("extend files")}}` 继承文件
-- `xb`：生成 `{{#block ("block name")}}code...{{/block}}` 快
+- `xb`：生成 `{{#block ("block name")}}code...{{/block}}` 块
 - `xw`：生成 `{{#with({x:2})}}{{x}}{{/with}}`
 
 
