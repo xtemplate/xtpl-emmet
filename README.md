@@ -1,6 +1,6 @@
 # xtpl emmet
 
-借助强大的 Emmet 插件，提供 [KISSY xTemplate](http://kissyteam.github.io/xtpl/) 中常用代码片段，从而提高开发效率。
+借助强大的 Emmet 插件，提供 xtemplate 中常用代码片段，从而提高开发效率。
 
 ## 使用方法
 
@@ -14,7 +14,7 @@
 ## 支持文件类型
 
 1. HTML 类型文件
-2. xtpl 后缀文件（需要安装[xtpl-sublime](https://github.com/kissyteam/xtpl-sublime)）
+2. xtpl 后缀文件（需要安装[xtpl-sublime](https://github.com/xtemplate/xtpl-sublime)）
 3. 其他使用 `Set Syntax: HTML` 或  `Set Syntax: XTpl` 命令的文件 
 
 
